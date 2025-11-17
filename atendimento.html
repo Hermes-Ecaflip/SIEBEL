@@ -69,62 +69,116 @@
             </section>
 
             <section class="step" id="step-2">
-                <h2>2. Selecione o Serviço</h2> <nav class="service-tabs">
-                    <button class="tab-btn active" data-tab="ativacao">Ativação</button>
-                    <button class="tab-btn" data-tab="migracao">Migração</button>
-                    <button class="tab-btn" data-tab="pos-venda">Pós-vendas</button>
-                    <button class="tab-btn" data-tab="outros">Outros serviços</button>
-                    <button class="tab-btn" data-tab="migracao-oi">Migração Oi</button>
-                </nav>
+    <h2>2. Selecione o Serviço</h2>
 
-                <div class="service-content-wrapper">
+    <nav class="service-tabs">
+        <button class="tab-btn active" data-tab="ativacao">Ativação</button>
+        <button class="tab-btn" data-tab="migracao">Migração</button>
+        <button class="tab-btn" data-tab="pos-venda">Pós-vendas</button>
+        <button class="tab-btn" data-tab="outros">Outros serviços</button>
+        <button class="tab-btn" data-tab="migracao-oi">Migração Oi</button>
+    </nav>
 
-                    <div class="service-tab-content active" id="ativacao">
-                        <div class="accordion-item">
-                            <button class="accordion-header">
-                                <h4>Voz</h4> <span class="icon">+</span>
-                            </button>
-                            <div class="accordion-body">
-                                <a href="#" class="service-link">Pós-pago</a>
-                                <a href="#" class="service-link">Controle fatura</a>
-                                <a href="#" class="service-link">Express</a>
-                                <a href="#" class="service-link">Pré-pago</a>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <button class="accordion-header">
-                                <h4>Dados</h4> <span class="icon">+</span>
-                            </button>
-                            <div class="accordion-body">
-                                <a href="#" class="service-link">Pós-pago</a>
-                                <a href="#" class="service-link">Express</a>
-                            </div>
-                        </div>
-                         <div class="accordion-item">
-                            <button class="accordion-header">
-                                <h4>Família</h4> <span class="icon">+</span>
-                            </button>
-                            <div class="accordion-body">
-                                <a href="#" class="service-link">Tim block multi fatura</a>
-                            </div>
-                        </div>
-                    </div>
+    <div class="service-content-wrapper">
 
-                    <div class="service-tab-content" id="migracao">
-                        <div class="accordion-item">
-                            <button class="accordion-header">
-                                <h4>Migração</h4> <span class="icon">+</span>
-                            </button>
-                            <div class="accordion-body">
-                                <a href="#" class="service-link">Pré-pago para pós-pago</a>
-                                <a href="#" class="service-link">Pré-pago para controle fatura</a>
-                                <a href="#" class="service-link">Pré-pago para express</a>
-                                <a href="#" class="service-link">Pré-pago para tim block multi</a>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-            </section>
+        <!-- 🔵 ATIVAÇÃO -->
+        <div class="service-tab-content active" id="ativacao">
+            <div class="accordion-item">
+                <button class="accordion-header">
+                    <h4>Voz</h4> <span class="icon">+</span>
+                </button>
+                <div class="accordion-body">
+                    <a href="#" class="service-link">Pós-pago</a>
+                    <a href="#" class="service-link">Controle fatura</a>
+                    <a href="#" class="service-link">Express</a>
+                    <a href="#" class="service-link">Pré-pago</a>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <button class="accordion-header">
+                    <h4>Dados</h4> <span class="icon">+</span>
+                </button>
+                <div class="accordion-body">
+                    <a href="#" class="service-link">Pós-pago</a>
+                    <a href="#" class="service-link">Express</a>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <button class="accordion-header">
+                    <h4>Família</h4> <span class="icon">+</span>
+                </button>
+                <div class="accordion-body">
+                    <a href="#" class="service-link">Tim block multi fatura</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 🔵 MIGRAÇÃO -->
+        <div class="service-tab-content" id="migracao">
+            <div class="accordion-item">
+                <button class="accordion-header">
+                    <h4>Migração</h4> <span class="icon">+</span>
+                </button>
+                <div class="accordion-body">
+                    <a href="#" class="service-link">Pré-pago para pós-pago</a>
+                    <a href="#" class="service-link">Pré-pago para controle fatura</a>
+                    <a href="#" class="service-link">Pré-pago para express</a>
+                    <a href="#" class="service-link">Pré-pago para tim block multi</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 🔵 PÓS-VENDAS (NOVO) -->
+        <div class="service-tab-content" id="pos-venda">
+
+            <!-- Acordeon Pós-pago do print -->
+            <div class="accordion-item">
+                <button class="accordion-header">
+                    <h4>Pós-pago</h4>
+                    <span class="icon">+</span>
+                </button>
+                <div class="accordion-body">
+                    <a href="#" class="service-link">Troca de chip</a>
+                    <a href="#" class="service-link">Troca de plano para plano fatura</a>
+                    <a href="#" class="service-link">Troca de plano para plano express</a>
+                    <a href="#" class="service-link">Troca de titularidade</a>
+                    <a href="#" class="service-link">Troca de plano para TIM Black Multi</a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- 🔵 OUTROS SERVIÇOS -->
+        <div class="service-tab-content" id="outros">
+            <div class="accordion-item">
+                <button class="accordion-header">
+                    <h4>Outros Serviços</h4>
+                    <span class="icon">+</span>
+                </button>
+                <div class="accordion-body">
+                    <a href="#" class="service-link">Consulta QRCODE</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 🔵 MIGRAÇÃO OI -->
+        <div class="service-tab-content" id="migracao-oi">
+            <div class="accordion-item">
+                <button class="accordion-header">
+                    <h4>Migração Oi</h4>
+                    <span class="icon">+</span>
+                </button>
+                <div class="accordion-body">
+                    <a href="#" class="service-link">Consulta QRCODE</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
         
         </div> </main>
     
